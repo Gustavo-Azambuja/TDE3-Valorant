@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(173, 166, 165);
+    margin-top: 10%;
+}
+
+
+header{
+    background-color: black;
+    height: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+}
+h1{
+    color: white !important;
+    font-size: 300%;
+
+}
+
+.valorant{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+}
+
+
+
+p{
+    text-align: justify;
+    text-indent: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+}
+img.imagem{
+    width: 8%;
+  }
+
+.logo{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: -0.9%;
+  }
+
+
+.container {   
+    width: 50%; 
+    margin: 0 auto; 
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0); 
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 100px auto 20%;
+}
+.container div{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.a{
+    text-align: center;
+
+}
+
+footer{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    margin-left: -0.4%;
+
+}
+.fo{
+    color: white;
+    font: 400%;
+    
+}
+
+#agents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agent-card {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.agent-card img {
+    width: 100%;
+    height: auto;
+}
